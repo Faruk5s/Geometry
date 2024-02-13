@@ -16,6 +16,10 @@ console.log('area of the triangle;', area);
 //display triangle area//
 const triangleAreaSpan =document.getElementById("triangleArea");
 triangleAreaSpan.innerText =area;
+const display=document.getElementById('displayBoard');
+const p = document.createElement('p');
+p.innerText='Area of Triangle is :' + area;
+display.appendChild(p);
 }
 
 function calculateRectangleArea() {
@@ -36,6 +40,10 @@ console.log('area of the Rectangle;', area);
 //display Rectangle area//
 const rectangleAreaSpan =document.getElementById("rectangleArea");
 rectangleAreaSpan.innerText =area;
+const display=document.getElementById('displayBoard1');
+const p = document.createElement('p');
+p.innerText='Area of Rectangle is :' + area;
+display.appendChild(p);
 }
 
 
@@ -57,6 +65,10 @@ console.log('area of the parallelogram;', area);
 //display  Parallelogram area//
 const parallelogramAreaSpan =document.getElementById("parallelogramArea");
 parallelogramAreaSpan.innerText =area;
+const display=document.getElementById('displayBoard2');
+const p = document.createElement('p');
+p.innerText='Area of parallelogram is :' + area;
+display.appendChild(p);
 }
 
 
